@@ -1,17 +1,22 @@
-* {
-    margin: 0;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
     z-index: -1;
+    margin: 0;
+}
+
+header, footer {
+    width: 100%;
+    position: fixed;
+    background-color: #344e41;
 }
 
 header {
-    width: 100%;
-    position: fixed;
     z-index: 10;
-    background-color: #344e41;
+}
+
+footer {
+    bottom:0;
+    text-align: center;
 }
 
 nav {
@@ -24,15 +29,22 @@ nav {
     top: 0px;
 }
 
-
-.links {
-    justify-self: flex-end;
-}
-
 a {
     color:white;
 }
 
 .content-padding {
     padding:20px;
+}
+
+#mad-kitty-image {
+    height: 70px;
+    position: fixed;
+    left:10px;
+    bottom: 0px;
+    z-index: 5;
+}
+
+#mad-kitty-image:hover {
+    height: 80px;
 }
