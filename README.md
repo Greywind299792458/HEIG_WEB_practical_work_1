@@ -11,7 +11,7 @@ Elliot Ganty
 |  3  | The `<p>` tag is used at least once                                 |  ✔️  |
 |  4  | The page `index.html` uses at least one `*.js` file                 |  ✔️  |
 |  5  | The page `index.html` uses at least one `*.css` file                |  ✔️  |
-|  6  | Each formatting tag (`<i>`, `<b>`, and `<u>`) is used at least once |       |
+|  6  | Each formatting tag (`<i>`, `<b>`, and `<u>`) is used at least once |  ✔️  |
 |  7  | There is at least one Hyperlink element `<a>`                       |  ✔️  |
 |  8  | There is at least one media (`<img>`, `<audio>`, or `<canvas>`)     |  ✔️  |
 
@@ -20,7 +20,7 @@ Elliot Ganty
 |  #  | Criterion                                                        | Done |
 | --: | ---------------------------------------------------------------- | ---- |
 | 9   | There is at leat one `*.css` file                                |  ✔️  |
-| 10  | At least 2 pseudo-class are used                                 |       |
+| 10  | At least 2 pseudo-class are used                                 |  ✔️  |
 | 11  | The Flexbox layout is used at least one time                     |  ✔️  |
 | 12  | The Grid Layout is used at least one time                        |  ✔️  |
 | 13  | At least 2 classes are used and declared                         |  ✔️  |
@@ -37,11 +37,11 @@ Elliot Ganty
 
 |  #  | Criterion                                                        | Done |
 | --: | ---------------------------------------------------------------- | ---- |
-| 17   | The project is on GitHub                                        |  ✔️ |
-| 18   | A preview of the website is on GitHub Pages                     |  ✔️ |
+| 17   | The project is on GitHub                                        |  ✔️  |
+| 18   | A preview of the website is on GitHub Pages                     |  ✔️  |
 
 ### Category 5 - Interactivity
 
 |  #  | Criterion                                                        | Done |
 | --: | ---------------------------------------------------------------- | ---- |
-| 19 | The user of your website need to be able to interact with it (click on a button, play with the mouse, etc.) |  ✔️ |
+| 19 | The user of your website need to be able to interact with it (click on a button, play with the mouse, etc.) |  ✔️  |
