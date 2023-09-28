@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="scripts/index.js" defer></script>
         <link rel="stylesheet" href="styles/style.css">
         <link rel="stylesheet" href="styles/index.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,37 +14,42 @@
     <body>
         <header>
             <nav>
-                <img src="assets/logo.png" alt="Logo The Purrfect Place">
+                <img height="70" src="assets/logo.png" alt="Logo The Purrfect Place">
                 <p>The Purrfect Place</p>
                 <a href="index.html">Accueil</a>
                 <a href="team.html">Notre équipe</a>
             </nav>
         </header>
         <main>
-            <section class="help-section">
-                <div class="left-content">
+            <section class="content-padding section main-section">
+                <img class="mad-biscotte" height="90" src="assets/angry_biscotte.png" alt="Logo The Purrfect Place">
+                <p>Dure journée au travail ? Votre vie paraît maussade et dénuée de sens ? Ce sont tous les symptômes d'un besoin urgent de <b>petits animaux mignons</b></p>
+            </section>
+            <section class="content-padding section help-section">
+                <div class="help-text">
                     <h2>
                         Donnez moi un chat mignon <br />
                         <i>TOUT...DE...SUITE !!!!</i>
                     </h2>
-                    <button class="btn-action">
+                    <button class="btn-action" id="generate-image-btn">
                         <b>Générer</b>
                     </button>
+                    <small>Pour plus de chats: <a href="https://cataas.com/#/" target="_blank">c'est par ici</a></small>
                 </div>
-                <img src="assets/placeholder_cat.jpg" alt="cat picture">
+                <img id="placeholder-image" src="assets/placeholder_cat.jpg" alt="cat picture">
             </section>
-            <section class="music-section">
-                <h2>ça ne fonctionne pas ? Essayez plutôt un de nos liens tirés de la collection personnelle de notre CEO! Effet garanti !</h2>
+            <section class="content-padding section link-section">
+                <h2>ça ne fonctionne pas ? Cliquez sur un des collèges de notre CEO! Effet garanti !</h2>
                 <div class="links">
-                   <a class="link" href="https://www.youtube.com/watch?v=KMOeC-Qqen8&ab_channel=Eupholie">&#128029;</a>
-                   <a class="link" href="https://www.youtube.com/watch?v=eyc2-TQnYi8&list=LL&index=6&ab_channel=DannyCasale">&#128038;</a>
-                   <a class="link" href="https://www.youtube.com/watch?v=diSjU2Go1mM&list=LL&index=1102&ab_channel=WilsonP.Higgsbury">&#128049;</a>
-                   <a class="link" href="https://www.youtube.com/watch?v=nHc288IPFzk&list=LL&index=1098&ab_channel=RetroPep">&#129414;</a>
-                   <a class="link" href="https://www.youtube.com/watch?v=v1K4EAXe2oo&list=LL&index=1056&ab_channel=MyFuckinMess">&#127930;</a>
-                   <a class="link" href="https://www.youtube.com/watch?v=Ut-fJCc0zS4&list=LL&index=1042&ab_channel=kekeflipnote">&#129345;</a>
+                   <a class="link" title="[Animation] bees performing chocobo theme - Eupholie" target="_blank" href="https://www.youtube.com/watch?v=KMOeC-Qqen8&ab_channel=Eupholie">&#128029;</a>
+                   <a class="link" title="VOULEZ-VOUS MES GRAINES ‼️ - Danny Casale" target="_blank" href="https://www.youtube.com/watch?v=eyc2-TQnYi8&list=LL&index=6&ab_channel=DannyCasale">&#128038;</a>
+                   <a class="link" title="What Does A Sloth Say? - AnimalistToo" target="_blank" href="https://www.youtube.com/watch?v=aaqzPMOd_1g&ab_channel=AnimalistToo">&#129445;</a>
+                   <a class="link" title="Duck Army - kevin237" target="_blank" href="https://www.youtube.com/watch?v=nHc288IPFzk&list=LL&index=1098&ab_channel=RetroPep">&#129414;</a>
+                   <a class="link" title="MitchiriNeko March - Cute cat characters in a marching band! - Mitchiri MitchiriNeko" target="_blank" href="https://www.youtube.com/watch?v=lAIGb1lfpBw&list=LL&index=1051&ab_channel=MitchiriMitchiriNeko">&#128049;</a>
+                   <a class="link" title="Pigeon Conga 2 ! - kekeflipnote" target="_blank" href="https://www.youtube.com/watch?v=Ut-fJCc0zS4&list=LL&index=1042&ab_channel=kekeflipnote">&#128035;</a>
                 </div>
             </section>
-            <section id="important-section">
+            <section id="content-padding important-section">
                 important-section   
             </section>
         </main>
