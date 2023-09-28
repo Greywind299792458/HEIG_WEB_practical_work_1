@@ -3,30 +3,27 @@
 }
 
 body {
-    font-weight: 1em;
     font-family: 'Roboto', sans-serif;
+    z-index: -1;
 }
+
 header {
-    padding:0px 50px 0px 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
     background-color: #344e41;
 }
 
-nav, footer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap:40px;
-  width: 100%;
-  position: sticky;
-}
-
 nav {
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap:30px;
     top: 0px;
 }
 
-footer {
-    bottom: 0px;
-}
 
 .links {
     justify-self: flex-end;
@@ -34,4 +31,8 @@ footer {
 
 a {
     color:white;
+}
+
+.content-padding {
+    padding:20px;
 }

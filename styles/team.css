@@ -5,6 +5,7 @@ body {
 
 .team {
     margin:auto;
+    padding-top:15vh;
     width: 55vw;
     height: 80vh;
     display: flex;

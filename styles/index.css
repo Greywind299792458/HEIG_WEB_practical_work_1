@@ -1,36 +1,52 @@
-.help-section {
-    background-color: #a3b18a;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
+.section {
     height: 50vh;
 }
 
-.help-section div {
+.mad-biscotte {
+    position: relative;
+    top:50px;
+    right:40px;
+}
+
+.main-section {
+    height: 20vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.help-section {
+    background-color: #a3b18a;
+    display: flex;
+    gap:40px;
+}
+
+.help-text {
     display:flex;
     flex-direction: column;
     justify-content: center;
     gap:20px;
     align-items: center;
-    width: 50%;
+    width: 40%;
     text-align: center;
 }
 
-.links {
+#placeholder-image {
+    max-width: 30%;
     justify-self: flex-end;
 }
 
 .btn-action {
-    display: inline-block;
     background: linear-gradient(#ffd97d, #ff9b85);
     color: black;
     border-radius: 50px;
     padding: 15px 20px;
     width: 200px;
     font-size: larger;
+    cursor: pointer;
 }
 
-.music-section {
+.link-section {
     margin:40px auto 20px auto;
     width: fit-content;
 }
@@ -40,9 +56,14 @@
     grid-template-columns: 30% 30% 30%;
     text-align: center;
     font-size:2em;
-    border:3px solid #a3b18a;
     border-radius: 5px;
     margin-top:20px;
     padding:40px;
     gap:20px;
+    border:3px solid #a3b18a;
+    background-color: #a3b18a;
+}
+
+.link {
+    text-decoration: none;
 }
