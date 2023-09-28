@@ -1,0 +1,33 @@
+body {
+    background-color: #a3b18a;
+    text-align: center;
+}
+
+.team {
+    margin:auto;
+    width: 55vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap:10px;
+}
+
+.team h1 {
+    align-self: flex-start;
+    margin: 15px 0px 15px 0px;
+}
+
+.member {
+    display:flex;
+    align-items: center;
+    border:3px solid white;
+    gap:20px;
+    border-radius: 7px;
+    padding:5px 20px 5px 20px;
+}
+
+.member .description {
+    text-align: justify;
+    overflow-wrap: break-word;
+}

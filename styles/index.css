@@ -1,0 +1,48 @@
+.help-section {
+    background-color: #a3b18a;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    height: 50vh;
+}
+
+.help-section div {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+}
+
+.links {
+    justify-self: flex-end;
+}
+
+.btn-action {
+    display: inline-block;
+    background: linear-gradient(#ffd97d, #ff9b85);
+    color: black;
+    border-radius: 50px;
+    padding: 15px 20px;
+    width: 200px;
+    font-size: larger;
+}
+
+.music-section {
+    margin:40px auto 20px auto;
+    width: fit-content;
+}
+
+.links {
+    display:grid;
+    grid-template-columns: 30% 30% 30%;
+    text-align: center;
+    font-size:2em;
+    border:3px solid #a3b18a;
+    border-radius: 5px;
+    margin-top:20px;
+    padding:40px;
+    gap:20px;
+}
