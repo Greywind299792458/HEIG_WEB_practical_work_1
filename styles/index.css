@@ -46,6 +46,10 @@
     cursor: pointer;
 }
 
+.btn-action:disabled {
+    background: gray;
+}
+
 .link-section {
     margin:40px auto 20px auto;
     width: fit-content;
