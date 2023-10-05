@@ -1,6 +1,5 @@
 body {
     font-family: 'Roboto', sans-serif;
-    z-index: -1;
     margin: 0;
 }
 
@@ -33,18 +32,9 @@ a {
     color:white;
 }
 
-.content-padding {
-    padding:20px;
-}
-
-#mad-kitty-image {
-    height: 70px;
-    position: fixed;
-    left:10px;
-    bottom: 0px;
-    z-index: 5;
-}
-
-#mad-kitty-image:hover {
-    height: 80px;
+.standard-card {
+    border-radius: 5px;
+    padding:40px;
+    background-color: #a3b18a;
+    text-align: center;
 }

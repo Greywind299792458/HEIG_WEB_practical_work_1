@@ -8,6 +8,14 @@
     right:40px;
 }
 
+.standard-section {
+    background-color: #a3b18a;
+}
+
+section {
+    padding:20px;
+}
+
 .main-section {
     height: 20vh;
     display: flex;
@@ -15,8 +23,7 @@
     align-items: flex-end;
 }
 
-.help-section {
-    background-color: #a3b18a;
+#help-section {
     display: flex;
     gap:40px;
 }
@@ -36,7 +43,7 @@
     justify-self: flex-end;
 }
 
-.btn-action {
+#generate-image-btn {
     background: linear-gradient(#ffd97d, #ff9b85);
     color: black;
     border-radius: 50px;
@@ -46,28 +53,43 @@
     cursor: pointer;
 }
 
-.btn-action:disabled {
+#generate-image-btn:disabled {
     background: gray;
 }
 
-.link-section {
+#link-section {
     margin:40px auto 20px auto;
     width: fit-content;
 }
 
-.links {
+.links-card {
     display:grid;
     grid-template-columns: 30% 30% 30%;
-    text-align: center;
     font-size:2em;
-    border-radius: 5px;
     margin-top:20px;
     padding:40px;
     gap:20px;
-    border:3px solid #a3b18a;
-    background-color: #a3b18a;
 }
 
-.link {
+.links-card a {
     text-decoration: none;
 }
+
+#audio-section img {
+    width: 5%;
+}
+
+#audio-section {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rotating {
+    animation: rotate 1.5s linear infinite; 
+}
+
+@keyframes rotate{
+    to{ transform: rotate(360deg); }
+  }
