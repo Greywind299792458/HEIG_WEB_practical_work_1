@@ -53,7 +53,7 @@ a {
 
 @media (max-width: 760px) { /* Tablet dimensions */
     h2 { font-size: 1.2em; }
-    p {font-size:0.9em; }
+    p,a {font-size:0.9em; }
     #help-section {
         justify-content: space-between;
     }
