@@ -4,7 +4,7 @@ Elliot Ganty
 
 ## Personnal checklist to keep track of what needs to be done
 
-|  #  | Criterion                                                           | Done  |
+|  #  | Criterion                                                           | TODO  |
 | --: | -----------------------------------------------------------------   | ----  |
 |  1  | There is at least one `*.html` file and it is named `index.html`    |  ✔️  |
 |  2  | The `<h1>` and `<h2>` tags are used at least once                   |  ✔️  |
@@ -17,7 +17,7 @@ Elliot Ganty
 
 ### Category 2 - CSS
 
-|  #  | Criterion                                                        | Done |
+|  #  | Criterion                                                        | TODO |
 | --: | ---------------------------------------------------------------- | ---- |
 | 9   | There is at leat one `*.css` file                                |  ✔️  |
 | 10  | At least 2 pseudo-class are used                                 |  ✔️  |
@@ -27,7 +27,7 @@ Elliot Ganty
 
 ### Category 3 - Javascript
 
-|  #  | Criterion                                                        | Done |
+|  #  | Criterion                                                        | TODO |
 | --: | ---------------------------------------------------------------- | ---- |
 | 14  | There is at leat one `*.js` file                                 |  ✔️  |
 | 15  | At least one variable is used                                    |  ✔️  |
@@ -35,13 +35,13 @@ Elliot Ganty
 
 ### Category 4 - Deployment
 
-|  #  | Criterion                                                        | Done |
+|  #  | Criterion                                                        | TODO |
 | --: | ---------------------------------------------------------------- | ---- |
 | 17   | The project is on GitHub                                        |  ✔️  |
 | 18   | A preview of the website is on GitHub Pages                     |  ✔️  |
 
 ### Category 5 - Interactivity
 
-|  #  | Criterion                                                        | Done |
+|  #  | Criterion                                                        | TODO |
 | --: | ---------------------------------------------------------------- | ---- |
 | 19 | The user of your website need to be able to interact with it (click on a button, play with the mouse, etc.) |  ✔️  |
