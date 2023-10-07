@@ -24,7 +24,7 @@
 
 .mad-biscotte {
     position: relative;
-    top:70%;
+    top:68%;
 }
 
 /* help section with cat images */
@@ -51,13 +51,12 @@
 }
 
 #fetch-image:hover {
-    background: linear-gradient(90deg,#ffd97d, #ff9b85);
+    background: linear-gradient(90deg, #ffd97d, #ff9b85);
 }
 
 #fetch-image:disabled {
     border:none;
     background: gray;
-    animation: pulse 1.2s ease infinite;
 }
 
 /* link section with links */
@@ -79,7 +78,7 @@
 }
 
 .links-card a:hover {
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.5);
 }
 
 .rotating {
