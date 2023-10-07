@@ -1,73 +1,89 @@
-.section {
-    height: 50vh;
+/* general styles */
+.standard-section {
+    padding:25px;
+}
+
+#link-section, #audio-section, #help-section {
+    background-color: var(--main-color);
+}
+
+.standard-flex, .standard-flex-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.standard-flex-column {
+    flex-direction: column;
+}
+
+/* intro section */
+#intro-section {
+    height: 7vh;
 }
 
 .mad-biscotte {
     position: relative;
-    top:50px;
-    right:40px;
+    top:70%;
 }
 
-.standard-section {
-    background-color: #a3b18a;
-}
-
-section {
-    padding:20px;
-}
-
-.main-section {
-    height: 20vh;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-
-#help-section {
-    display: flex;
-    gap:40px;
-}
-
+/* help section with cat images */
 .help-text {
-    display:flex;
     flex-direction: column;
-    justify-content: center;
     gap:20px;
-    align-items: center;
     width: 40%;
     text-align: center;
 }
 
-#placeholder-image {
-    max-width: 30%;
+#result-image {
+    max-height: 40vh;
+    max-width: 40vw;
     justify-self: flex-end;
 }
 
-#generate-image-btn {
-    background: linear-gradient(#ffd97d, #ff9b85);
+#fetch-image {
+    background: #ffd97d;
     color: black;
     border-radius: 50px;
     padding: 15px 20px;
-    width: 200px;
-    font-size: larger;
-    cursor: pointer;
+    width: 140px;
+    font-size: 1.2em;
 }
 
-#generate-image-btn:disabled {
+#fetch-image:hover {
+    background: linear-gradient(90deg,#ffd97d, #ff9b85);
+}
+
+#fetch-image:disabled {
+    border:none;
     background: gray;
+    animation: pulse 1.2s ease infinite;
 }
 
+@keyframes pulse {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      opacity: 0.7;
+    }
+    100% {
+      transform: scale(1.1);
+      opacity: 0.4;
+    }
+  }
+
+/* link section with links */
 #link-section {
-    margin:40px auto 20px auto;
+    margin:40px auto 40px auto;
     width: fit-content;
 }
 
 .links-card {
+    width: 80%;
     display:grid;
     grid-template-columns: 30% 30% 30%;
     font-size:2em;
-    margin-top:20px;
-    padding:40px;
     gap:20px;
 }
 
@@ -75,15 +91,13 @@ section {
     text-decoration: none;
 }
 
+.links-card a:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+/* audio section with fish music */
 #audio-section img {
     width: 5%;
-}
-
-#audio-section {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .rotating {
@@ -92,4 +106,4 @@ section {
 
 @keyframes rotate{
     to{ transform: rotate(360deg); }
-  }
+}

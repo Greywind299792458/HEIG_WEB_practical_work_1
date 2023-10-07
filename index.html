@@ -1,14 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script type="text/javascript" src="scripts/index.js" defer></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles/style.css">
         <link rel="stylesheet" href="styles/index.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="scripts/index.js" defer></script>
         <title>The Purrfect Place</title>
     </head>
     <body>
@@ -21,26 +19,26 @@
             </nav>
         </header>
         <main>
-            <section class="content-padding section main-section">
-                <img class="mad-biscotte" height="90" src="assets/angry_biscotte.png" alt="my cat Biscotte being annoyed">
+            <section class="standard-section standard-flex" id="intro-section">
+                <img class="mad-biscotte" height="90" src="assets/angry_biscotte.png" alt="My cat Biscotte being annoyed">
                 <p>Journée difficile au travail ? Votre vie paraît maussade et dénuée de sens ? Ce sont tous les symptômes d'un besoin urgent de <b>petits animaux mignons</b></p>
             </section>
-            <section class="content-padding standard-section" id="help-section">
-                <div class="help-text">
+            <section class="standard-section standard-flex" id="help-section">
+                <div class="help-text standard-flex-column">
                     <h2>
                         Donnez moi un chat mignon <br />
                         <i>TOUT...DE...SUITE !!!!</i>
                     </h2>
-                    <button id="generate-image-btn">
+                    <button id="fetch-image">
                         <u>Générer</u>
                     </button>
-                    <small>Pour plus de chats: <a href="https://developers.thecatapi.com/view-account/ylX4blBYT9FaoVd6OhvR?report=bOoHBz-8t" target="_blank">c'est par ici</a></small>
+                    <small>Pour plus de chats: <a title="TheCatAPI - Documentation Portal" href="https://developers.thecatapi.com/view-account/ylX4blBYT9FaoVd6OhvR?report=bOoHBz-8t" target="_blank">c'est par ici</a></small>
                 </div>
-                <img id="placeholder-image" src="assets/placeholder_cat.jpg" alt="cat under a pile of papers with a caption saying '404 Not Found">
+                <img id="result-image" src="assets/placeholder_cat.jpg" alt="cat under a pile of papers with a caption saying '404 Not Found">
             </section>
-            <section class="content-padding section" id="link-section">
+            <section class="standard-section standard-card standard-flex-column" id="link-section">
                 <h2>ça ne fonctionne pas ? Cliquez sur un des collèges de notre CEO! Effet garanti !</h2>
-                <div class="links-card standard-card">
+                <div class="links-card">
                    <a title="[Animation] bees performing chocobo theme - Eupholie" target="_blank" href="https://www.youtube.com/watch?v=KMOeC-Qqen8&ab_channel=Eupholie">&#128029;</a>
                    <a title="VOULEZ-VOUS MES GRAINES ‼️ - Danny Casale" target="_blank" href="https://www.youtube.com/watch?v=eyc2-TQnYi8&list=LL&index=6&ab_channel=DannyCasale">&#128038;</a>
                    <a title="What Does A Sloth Say? - AnimalistToo" target="_blank" href="https://www.youtube.com/watch?v=aaqzPMOd_1g&ab_channel=AnimalistToo">&#129445;</a>
@@ -49,15 +47,19 @@
                    <a title="Pigeon Conga 2 ! - kekeflipnote" target="_blank" href="https://www.youtube.com/watch?v=Ut-fJCc0zS4&list=LL&index=1042&ab_channel=kekeflipnote">&#128035;</a>
                 </div>
             </section>
-            <section class="standard-section" id="audio-section">
+            <section class="standard-section standard-flex-column" id="audio-section">
                 <p>Toujours malheureux ? <b>Bob le poisson plein de haine</b> a la solution pour vous !</p>
-                <img id="fish-img" src="assets/angry_fish.png">
-                <audio controls loop id="audio">
+                <img src="assets/angry_fish.png" id="fish-img" alt="a little angry orange fish">
+                <audio id="fish-audio" controls loop>
                     <source src="assets/fish_song.mp3" type="audio/ogg">
                     <source src="assets/fish_song.mp3" type="audio/mpeg">
                     Your browser does not support the audio tag.
                   </audio>
+                  <small>corook - if i were a fish ft. olivia barton <a href="https://www.youtube.com/watch?v=HVMc1ANfeMw&ab_channel=hicorook" target="_blank"></a></small>
             </section>
-        </main>
+          </main>
     </body>
+    <footer>
+        <p>logo créé avec <a title="Canvas logo maker" href="https://www.canva.com/create/logos/">Canva Logo maker</a></p>
+    </footer>
 </html>

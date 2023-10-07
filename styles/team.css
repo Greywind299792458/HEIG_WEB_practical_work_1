@@ -1,29 +1,22 @@
 body {
-    background-color: #a3b18a;
+    background-color: var(--main-color);
 }
 
 .team {
-    margin:auto;
-    padding-top:15vh;
+    margin:0 auto 0 auto;
     width: 55vw;
     height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    gap:10px;
-}
-
-.team h1 {
-    align-self: flex-start;
-    margin: 15px 0px 15px 0px;
 }
 
 .member {
     display:flex;
     align-items: center;
-    border:3px solid white;
+    border:3px solid var(--border-color);
     gap:20px;
-    background-color: #a3b18a;
+    background-color: var(--main-color);
     padding:5px 20px 5px 20px;
 }
 
@@ -33,5 +26,11 @@ body {
 
 .member .description {
     text-align: justify;
+    width: 100%;
     overflow-wrap: break-word;
+}
+
+footer {
+    position: fixed;
+    bottom:0;
 }
