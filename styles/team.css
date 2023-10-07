@@ -34,3 +34,9 @@ footer {
     position: fixed;
     bottom:0;
 }
+
+@media (max-width: 760px) {
+    .team {
+        width: 90vw;
+    }
+}

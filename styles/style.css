@@ -28,6 +28,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
+
 }
 
 nav {
@@ -48,4 +49,12 @@ a {
     padding:40px;
     background-color: var(--main-color);
     text-align: center;
+}
+
+@media (max-width: 760px) { /* Tablet dimensions */
+    h2 { font-size: 1.2em; }
+    p {font-size:0.9em; }
+    #help-section {
+        justify-content: space-between;
+    }
 }
