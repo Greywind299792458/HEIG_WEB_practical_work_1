@@ -1,13 +1,28 @@
-// listen to the button click to fetch a new cat image
-const imageBtn = document.getElementById("fetch-image");
-if(imageBtn !== null) {
-    imageBtn.addEventListener('click', () => {
-        fetchNewImage();
-    });
+function onLoad() {
+    // listen to the button click to fetch a new cat image
+    const imageBtn = document.getElementById("fetch-image");
+    if(imageBtn !== null) {
+        imageBtn.addEventListener('click', () => {
+            fetchNewImage(imageBtn);
+        });
+    }
+
+    const audio     = document.getElementById("fish-audio");
+    const fishImg   = document.getElementById("fish-img");
+    if(audio == null || fishImg == null) { return; }
+
+    // stops the fish rotation when the music stops
+    audio.onpause = function() {
+        fishImg.classList.remove('rotating');
+    };
+    // starts the fish rotation when the music stops
+    audio.onplay = function() {
+        fishImg.classList.add('rotating');
+    };
 }
 
 // fetch new cat image from the cat API and replaces the image
-function fetchNewImage() {
+function fetchNewImage(imageBtn) {
     imageBtn.disabled = true;
     const imagePlaceholder = document.getElementById("result-image");
     if(imagePlaceholder === null) { return; }
@@ -26,20 +41,3 @@ function fetchNewImage() {
         imageBtn.disabled = false;
     }
 }
-
-const aud   = document.getElementById("fish-audio");
-const fish  = document.getElementById("fish-img");
-
-// stop the fish rotation when the music stops
-aud.onpause = function() {
-    if(fish != null) {
-        fish.classList.remove('rotating');
-    }
-};
-
-// start the fish rotation when the music stops
-aud.onplay = function() {
-    if(fish != null) {
-        fish.classList.add('rotating');
-    }
-};
