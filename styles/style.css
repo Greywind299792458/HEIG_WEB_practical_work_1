@@ -51,9 +51,15 @@ a {
     text-align: center;
 }
 
-@media (max-width: 760px) { /* Tablet dimensions */
-    h2 { font-size: 1.2em; }
-    p,a {font-size:0.9em; }
+@media (max-width: 760px) {
+    h2 { 
+        font-size: 1.2em; 
+    }
+
+    p, a, li {
+        font-size:0.9em; 
+    }
+    
     #help-section {
         justify-content: space-between;
     }

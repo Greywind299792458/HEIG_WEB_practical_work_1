@@ -3,12 +3,13 @@ body {
 }
 
 .team {
-    margin:0 auto 0 auto;
+    margin:5px auto 5px auto;
     width: 55vw;
-    height: 80vh;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    text-align: center;
 }
 
 .member {
